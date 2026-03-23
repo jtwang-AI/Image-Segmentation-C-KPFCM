@@ -1,0 +1,4 @@
+Method,SA_mean,SA_std,Iterations_mean,Time_mean_s
+FCM,0.7408,0.0530,46.60,0.0533
+PFCM,0.6837,0.0871,35.23,0.0675
+C-KPFCM,0.7625,0.0645,33.00,0.0713

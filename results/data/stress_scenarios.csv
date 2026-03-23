@@ -1,0 +1,6 @@
+Scenario,FCM,PFCM,C-KPFCM
+Clean,0.7485,0.6838,0.7699
+Mixed noise,0.6678,0.5414,0.6568
+Illum. drift,0.6174,0.5351,0.5690
+Occ. clutter,0.4572,0.4391,0.4488
+Severe compound,0.4820,0.4757,0.4631
