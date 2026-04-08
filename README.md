@@ -1,21 +1,22 @@
-# Experiment Code
+# Reconstructed CKPFCM Code
 
-This folder contains a self-contained implementation of the formulas used in the paper:
+This package is a clean-room reconstruction written from the legacy manuscript narrative. It exists so the project can run end-to-end again.
 
-- `algorithms.py`: `FCM`, `PFCM`, `KPFCM`, `C-PFCM`, `C-KPFCM`
-- `synthetic_data.py`: reproducible complex-background segmentation cases
-- `evaluation.py`: segmentation accuracy and label remapping
-- `plotting.py`: result figures
-- `run_experiments.py`: full experiment pipeline
+## Scope
 
-Run:
+- synthetic benchmark generator for CAO, GU, and WEI-style cases
+- segmentation accuracy with label-permutation matching
+- lightweight NumPy implementations of:
+  - FCM
+  - PFCM
+  - KPFCM
+  - C-PFCM
+  - C-KPFCM
 
-```bash
-python3 code/run_experiments.py
-```
+## Important limitation
 
-Outputs are written to:
+This is not the original implementation from the paper workspace. Therefore:
 
-- `results/data`
-- `results/figures`
-- `results/report`
+- the numerical results produced by this package are useful for testing and future redevelopment;
+- they should not be presented as the original manuscript's exact results;
+- they are a reconstruction baseline from which a closer reproduction can be developed.
